@@ -1,6 +1,5 @@
 ﻿string[] diagnostics = File.ReadAllLines("input.txt");
 
-
 List<char> gamma = new();
 List<char> epsilon = new();
 for(int i = 0; i < diagnostics[0].Length; i++)
